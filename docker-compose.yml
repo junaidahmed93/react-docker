@@ -6,7 +6,6 @@ services:
     container_name: sample-app
     build:
       context: .
-      dockerfile: Dockerfile
     volumes:
       - '.:/usr/src/app'
     ports:
